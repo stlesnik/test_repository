@@ -323,10 +323,10 @@
         "text": "Cкажите «Перевести 100 ₽, скажите «Подтверждаю»",
         "typeface": "button2",
         "margins": {
-          "top": "6x",
+          "top": "12x",
           "left": "4x",
           "right": "4x",
-          "bottom": "6x"
+          "bottom": "12x"
         },
         "actions": [
           {
