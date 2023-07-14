@@ -347,17 +347,5 @@
 
 
 
-  ],
-  "suggestions": [
-                                      {
-                                        "type": "suggest_text",
-                                        "text": "Изменить",
-                                        "title": "Изменить"
-                                      },
-                                      {
-                                        "type": "suggest_text",
-                                        "text": "Отмена",
-                                        "title": "Отмена"
-                                      }
-                                    ]
+  ]
 }
