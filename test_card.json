@@ -320,7 +320,7 @@
     },
     {
       "content": {
-        "text": "Подтверждаю",
+        "text": "Cкажите «Подтверждаю»",
         "typeface": "button2",
         "margins": {
           "top": "6x",
@@ -330,7 +330,7 @@
         },
         "actions": [
           {
-            "text": "Cкажите «Подтверждаю»",
+            "text": "Подтверждаю",
             "should_send_to_backend": true,
             "type": "text"
           }
