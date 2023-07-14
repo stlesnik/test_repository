@@ -320,13 +320,13 @@
     },
     {
       "content": {
-        "text": "Cкажите «Перевести 100 ₽, \nскажите «Подтверждаю»",
+        "text": "Перевести 100 ₽, скажите «Подтверждаю»",
         "typeface": "button2",
         "margins": {
-          "top": "6x",
-          "left": "6x",
-          "right": "6x",
-          "bottom": "6x"
+          "top": "1x",
+          "left": "1x",
+          "right": "1x",
+          "bottom": "1x"
         },
         "actions": [
           {
