@@ -298,7 +298,7 @@
             "max_lines": 0
           },
           "subtitle": {
-            "text": "Комиссия 0 ₽",
+            "text": "Комиссия \n0 ₽",
             "typeface": "footnote1",
             "text_color": "warning",
             "margins": {
@@ -320,7 +320,7 @@
     },
     {
       "content": {
-        "text": "Cкажите «Подтверждаю»",
+        "text": "Cкажите «Подтверждаю»                    или изменить",
         "typeface": "button2",
         "margins": {
           "top": "6x",
