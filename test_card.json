@@ -330,7 +330,7 @@
         },
         "actions": [
           {
-            "text": "Подтверждаю",
+            "text": "Cкажите «Подтверждаю»",
             "should_send_to_backend": true,
             "type": "text"
           }
