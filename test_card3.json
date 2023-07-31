@@ -179,7 +179,7 @@
                   "max_lines": 1
                 },
                 "caption": {
-                  "text": "По умолчанию",
+                  "text": "Приоритетный банк получателя",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "margins": {
