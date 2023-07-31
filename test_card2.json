@@ -159,7 +159,7 @@
         },
         "texts": {
           "title": {
-            "text": "Банк получателя по умолчанию",
+            "text": "Приоритетный банк получателя",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
