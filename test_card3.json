@@ -1,351 +1,447 @@
 {
   "type": "sdk_answer",
   "items": [
-      {
-          "card": {
-  "type": "list_card",
-  "paddings": {
-    "top": "8x",
-    "left": "8x",
-    "right": "8x",
-    "bottom": "8x"
-  },
-  "cells": [
     {
-      "paddings": {
-        "bottom": "6x"
-      },
-      "left": {
-        "texts": {
-          "title": {
-            "text": "Перевод клиенту СберБанка",
-            "typeface": "headline3",
-            "text_color": "default",
-            "max_lines": 0
-          },
-          "subtitle": {
-            "text": "Оксана Иванова",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            },
-            "max_lines": 0
-          }
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "8x"
         },
-        "type": "simple_left_view"
-      },
-      "type": "left_right_cell_view"
-    },
-    {
-      "paddings": {
-        "left": "8x",
-        "bottom": "3x"
-      },
-      "left": {
-        "texts": {
-          "title": {
-            "text": "Получатель",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "6x",
-              "left": "16x"
-            },
-            "max_lines": 0
-          }
-        },
-        "type": "simple_left_view"
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "6x"
-        }
-      },
-      "actions": [
-        {
-          "text": "Изменить получателя",
-          "should_send_to_backend": true,
-          "type": "text"
-        }
-      ],
-      "type": "left_right_cell_view"
-    },
-    {
-      "paddings": {
-        "bottom": "6x"
-      },
-      "divider": {
-        "style": "default",
-        "size": "d1"
-      },
-      "left": {
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "user"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "1x",
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Михаил Михайлович К.",
-            "typeface": "body1",
-            "text_color": "default",
-            "margins": {
-              "bottom": "1x"
-            },
-            "max_lines": 1
-          },
-          "subtitle": {
-            "text": "+7 (900) 666-10-01",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 0
-          }
-        },
-        "type": "simple_left_view"
-      },
-      "right": {
-        "detail": {
-          "text": "••••0107",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1
-        },
-        "vertical_gravity": "center",
-        "type": "detail_right_view"
-      },
-      "actions": [
-        {
-          "text": "Изменить получателя",
-          "should_send_to_backend": true,
-          "type": "text"
-        }
-      ],
-      "type": "left_right_cell_view"
-    },
-    {
-      "paddings": {
-        "left": "8x",
-        "bottom": "3x"
-      },
-      "left": {
-        "texts": {
-          "title": {
-            "text": "Счет списания",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "6x",
-              "left": "16x"
-            },
-            "max_lines": 0
-          }
-        },
-        "type": "simple_left_view"
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "6x"
-        }
-      },
-      "actions": [
-        {
-          "text": "Изменить карту",
-          "should_send_to_backend": true,
-          "type": "text"
-        }
-      ],
-      "type": "left_right_cell_view"
-    },
-    {
-      "divider": {
-        "style": "default",
-        "size": "d1"
-      },
-      "left": {
-        "icon": {
-          "address": {
-            "identificator": "card_visa",
-            "type": "local"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "1x",
-            "right": "6x"
-          }
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Visa Classic",
-            "typeface": "body1",
-            "text_color": "default",
-            "margins": {
-              "bottom": "1x"
-            },
-            "max_lines": 0
-          },
-          "subtitle": {
-            "text": "•••• 5611",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "bottom": "6x"
-            },
-            "max_lines": 0
-          }
-        },
-        "type": "simple_left_view"
-      },
-      "right": {
-        "detail": {
-          "text": "34 396,51 ₽",
-          "typeface": "body1",
-          "text_color": "brand",
-          "max_lines": 1
-        },
-        "vertical_gravity": "top",
-        "type": "detail_right_view"
-      },
-      "actions": [
-        {
-          "text": "Изменить карту",
-          "should_send_to_backend": true,
-          "type": "text"
-        }
-      ],
-      "type": "left_right_cell_view"
-    },
-    {
-      "paddings": {
-        "left": "8x",
-        "bottom": "3x"
-      },
-      "left": {
-        "texts": {
-          "title": {
-            "text": "Сумма перевода",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "6x",
-              "left": "16x"
-            },
-            "max_lines": 0
-          }
-        },
-        "type": "simple_left_view"
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "6x"
-        }
-      },
-      "actions": [
-        {
-          "text": "Изменить сумму",
-          "should_send_to_backend": true,
-          "type": "text"
-        }
-      ],
-      "type": "left_right_cell_view"
-    },
-    {
-      "paddings": {
-        "bottom": "6x"
-      },
-      "left": {
-        "icon": {
-          "address": {
-            "url": "https://va-res.online.sberbank.ru/VA/icons/cbva/moneybag.png",
-            "type": "url"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "1x",
-            "right": "6x"
-          }
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "100 ₽",
-            "typeface": "body1",
-            "text_color": "default",
-            "margins": {
-              "bottom": "1x"
-            },
-            "max_lines": 0
-          },
-          "subtitle": {
-            "text": "Комиссия \n0 ₽",
-            "typeface": "footnote1",
-            "text_color": "warning",
-            "margins": {
-              "bottom": "6x"
-            },
-            "max_lines": 0
-          }
-        },
-        "type": "simple_left_view"
-      },
-      "actions": [
-        {
-          "text": "Изменить сумму",
-          "should_send_to_backend": true,
-          "type": "text"
-        }
-      ],
-      "type": "left_right_cell_view"
-    },
-    {
-      "content": {
-        "text": "Cкажите «Перевести 100 ₽, \nскажите «Подтверждаю»",
-        "typeface": "button2",
-        "margins": {
-          "top": "12x",
-          "left": "4x",
-          "right": "4x",
-          "bottom": "12x"
-        },
-        "actions": [
+        "cells": [
           {
-            "text": "Подтверждаю",
-            "should_send_to_backend": true,
-            "type": "text"
+            "paddings": {
+              "bottom": "6x"
+            },
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/sbp_logo.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "Перевод через СБП",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "Тест получатель",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 0
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "paddings": {
+              "left": "8x",
+              "bottom": "3x"
+            },
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Получатель",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "6x",
+                    "left": "16x"
+                  },
+                  "max_lines": 0
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "6x"
+              }
+            },
+            "actions": [
+              {
+                "text": "Изменить получателя",
+                "should_send_to_backend": true,
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "paddings": {
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "user",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "top": "1x",
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Тест ЕФС получатель",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "1x"
+                  },
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "+7 (985) 412-69-53",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "actions": [
+              {
+                "text": "Изменить получателя",
+                "should_send_to_backend": true,
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/bank_icons/ds_mc_36_tinkoff.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x",
+                  "top": "10x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "Банк получателя",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "6x",
+                    "bottom": "3x"
+                  },
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "Тинькофф Банк",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "1x"
+                  },
+                  "max_lines": 1
+                },
+                "caption": {
+                  "text": "По умолчанию",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "6x"
+                  }
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "vertical",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "6x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "text": "Изменить банк",
+                "should_send_to_backend": true,
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "paddings": {
+              "left": "8x",
+              "bottom": "3x"
+            },
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Счет списания",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "6x",
+                    "left": "16x"
+                  },
+                  "max_lines": 0
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "6x"
+              }
+            },
+            "actions": [
+              {
+                "text": "Изменить карту",
+                "should_send_to_backend": true,
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_mc",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "top": "1x",
+                  "right": "6x"
+                }
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "MasterCard Сберкарта",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "1x"
+                  },
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "•••• 7657",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "6x"
+                  },
+                  "max_lines": 0
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "343 378,68 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "type": "detail_right_view"
+            },
+            "actions": [
+              {
+                "text": "Изменить карту",
+                "should_send_to_backend": true,
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "paddings": {
+              "left": "8x",
+              "bottom": "3x"
+            },
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Сумма списания",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "6x",
+                    "left": "16x"
+                  },
+                  "max_lines": 0
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "6x"
+              }
+            },
+            "actions": [
+              {
+                "text": "Изменить сумму",
+                "should_send_to_backend": true,
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "paddings": {
+              "bottom": "6x"
+            },
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cbva/moneybag.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "top": "1x",
+                  "right": "6x"
+                }
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "150 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "1x"
+                  },
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "Комиссия 0 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "warning",
+                  "margins": {
+                    "bottom": "6x"
+                  },
+                  "max_lines": 0
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "actions": [
+              {
+                "text": "Изменить сумму",
+                "should_send_to_backend": true,
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "content": {
+              "text": "Перевести 150 ₽",
+              "typeface": "button2",
+              "margins": {
+                "top": "6x",
+                "left": "4x",
+                "right": "4x",
+                "bottom": "6x"
+              },
+              "actions": [
+                {
+                  "text": "Подтверждаю",
+                  "should_send_to_backend": true,
+                  "type": "text"
+                }
+              ],
+              "style": "default",
+              "type": "accept"
+            },
+            "type": "button_cell_view"
+          },
+          {
+            "content": {
+              "text": "Выбирая перевести, вы соглашаетесь с условиями осуществления переводов по СБП",
+              "typeface": "caption",
+              "text_color": "secondary",
+              "margins": {
+                "top": "10x",
+                "left": "8x",
+                "right": "8x",
+                "bottom": "10x"
+              },
+              "max_lines": 0,
+              "actions": [
+                {
+                  "deep_link": "https://www.sberbank.ru/common/img/uploaded/files/usl_perevod_fiz_fiz_sbp_new.pdf",
+                  "type": "deep_link"
+                }
+              ]
+            },
+            "paddings": {
+              "top": "6x"
+            },
+            "type": "text_cell_view"
           }
         ],
-        "style": "default",
-        "type": "accept"
-      },
-      "type": "button_cell_view"
+        "can_be_disabled": true
+      }
     }
-  ],
-  "can_be_disabled": true
-}
-}
-
-
-
   ]
 }
