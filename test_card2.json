@@ -16,15 +16,28 @@
         "bottom": "6x"
       },
       "left": {
+        "icon": {
+          "address": {
+            "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/sbp_logo.png",
+            "type": "url"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          }
+        },
         "texts": {
           "title": {
-            "text": "Перевод клиенту СберБанка",
+            "text": "Перевод через СБП",
             "typeface": "headline3",
             "text_color": "default",
             "max_lines": 0
           },
           "subtitle": {
-            "text": "Оксана Иванова",
+            "text": "Тест получатель",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -83,8 +96,8 @@
       "left": {
         "icon": {
           "address": {
-            "type": "local",
-            "identificator": "user"
+            "identificator": "user",
+            "type": "local"
           },
           "size": {
             "width": "medium",
@@ -99,7 +112,7 @@
         "icon_vertical_gravity": "top",
         "texts": {
           "title": {
-            "text": "Михаил Михайлович К.",
+            "text": "Тест ЕФС получатель",
             "typeface": "body1",
             "text_color": "default",
             "margins": {
@@ -108,7 +121,7 @@
             "max_lines": 1
           },
           "subtitle": {
-            "text": "+7 (900) 666-10-01",
+            "text": "+7 (985) 412-69-53",
             "typeface": "footnote1",
             "text_color": "secondary",
             "max_lines": 0
@@ -116,19 +129,72 @@
         },
         "type": "simple_left_view"
       },
-      "right": {
-        "detail": {
-          "text": "••••0107",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1
-        },
-        "vertical_gravity": "center",
-        "type": "detail_right_view"
-      },
       "actions": [
         {
           "text": "Изменить получателя",
+          "should_send_to_backend": true,
+          "type": "text"
+        }
+      ],
+      "type": "left_right_cell_view"
+    },
+    {
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "icon": {
+          "address": {
+            "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/bank_icons/ds_mc_36_tinkoff.png",
+            "type": "url"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          }
+        },
+        "texts": {
+          "title": {
+            "text": "Банк получателя по умолчанию",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "6x",
+              "bottom": "3x"
+            },
+            "max_lines": 0
+          },
+          "subtitle": {
+            "text": "Тинькофф Банк",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "bottom": "6x"
+            },
+            "max_lines": 1
+          }
+        },
+        "type": "simple_left_view"
+      },
+      "right": {
+        "type": "right_cell_array_view",
+        "orientation": "vertical",
+        "items": [
+          {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "6x"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "text": "Изменить банк",
           "should_send_to_backend": true,
           "type": "text"
         }
@@ -178,7 +244,7 @@
       "left": {
         "icon": {
           "address": {
-            "identificator": "card_visa",
+            "identificator": "card_mc",
             "type": "local"
           },
           "size": {
@@ -193,7 +259,7 @@
         "icon_vertical_gravity": "top",
         "texts": {
           "title": {
-            "text": "Visa Classic",
+            "text": "MasterCard Сберкарта",
             "typeface": "body1",
             "text_color": "default",
             "margins": {
@@ -202,7 +268,7 @@
             "max_lines": 0
           },
           "subtitle": {
-            "text": "•••• 5611",
+            "text": "•••• 7657",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -215,7 +281,7 @@
       },
       "right": {
         "detail": {
-          "text": "34 396,51 ₽",
+          "text": "343 378,68 ₽",
           "typeface": "body1",
           "text_color": "brand",
           "max_lines": 1
@@ -240,7 +306,7 @@
       "left": {
         "texts": {
           "title": {
-            "text": "Сумма перевода",
+            "text": "Сумма списания",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -289,7 +355,7 @@
         "icon_vertical_gravity": "top",
         "texts": {
           "title": {
-            "text": "100 ₽",
+            "text": "150 ₽",
             "typeface": "body1",
             "text_color": "default",
             "margins": {
@@ -298,7 +364,7 @@
             "max_lines": 0
           },
           "subtitle": {
-            "text": "Комиссия \n0 ₽",
+            "text": "Комиссия 0 ₽",
             "typeface": "footnote1",
             "text_color": "warning",
             "margins": {
@@ -320,8 +386,14 @@
     },
     {
       "content": {
-        "text": "Cкажите «Перевести 100 ₽, \nскажите «Подтверждаю»",
+        "text": "Перевести 150 ₽",
         "typeface": "button2",
+        "margins": {
+          "top": "6x",
+          "left": "4x",
+          "right": "4x",
+          "bottom": "6x"
+        },
         "actions": [
           {
             "text": "Подтверждаю",
@@ -333,6 +405,30 @@
         "type": "accept"
       },
       "type": "button_cell_view"
+    },
+    {
+      "content": {
+        "text": "Выбирая перевести, вы соглашаетесь с условиями осуществления переводов по СБП",
+        "typeface": "caption",
+        "text_color": "secondary",
+        "margins": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        },
+        "max_lines": 0,
+        "actions": [
+          {
+            "deep_link": "https://www.sberbank.ru/common/img/uploaded/files/usl_perevod_fiz_fiz_sbp_new.pdf",
+            "type": "deep_link"
+          }
+        ]
+      },
+      "paddings": {
+        "top": "6x"
+      },
+      "type": "text_cell_view"
     }
   ],
   "can_be_disabled": true
