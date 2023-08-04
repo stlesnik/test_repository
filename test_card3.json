@@ -149,9 +149,9 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/bank_icons/ds_mc_36_tinkoff.png",
-                  "type": "local",
-                  "identificator": "card_ghost"
+                  "type": "url",
+                  "hash": "3832a6340540554b8a032f1b46533159",
+                  "url": "https://cdn.sberdevices.ru/VA/pnt/sbp_logo.png"
                 },
                 "size": {
                   "width": "medium",
@@ -164,7 +164,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Банк получателя",
+                  "text": "sbp",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -214,9 +214,9 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/bank_icons/ds_mc_36_tinkoff.png",
-                  "type": "local",
-                  "identificator": "safe"
+                  "type": "url",
+                  "hash": "1BC29B36F623BA82AAF6724FD3B16718",
+                  "url": "https://cs5-2.4pda.to/6380085.png"
                 },
                 "size": {
                   "width": "medium",
@@ -229,7 +229,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Банк получателя",
+                  "text": "не пересчитанный хэш",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -279,9 +279,9 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/bank_icons/ds_mc_36_tinkoff.png",
-                  "type": "local",
-                  "identificator": "safe"
+                  "type": "url",
+                  "hash": "5b69ca095ed76f5ceea58706e7891344",
+                  "url": "https://cs5-2.4pda.to/6380085.png"
                 },
                 "size": {
                   "width": "medium",
@@ -294,7 +294,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Банк получателя",
+                  "text": "пересчитанный хэш",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
