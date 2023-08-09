@@ -2,7 +2,340 @@
   "type": "sdk_answer",
   "items": [
       {
-          "card": {'type': 'list_card', 'paddings': {'top': '8x', 'left': '8x', 'right': '8x', 'bottom': '8x'}, 'cells': [{'paddings': {'bottom': '2x'}, 'left': {'texts': {'title': {'text': 'Выберите банк', 'typeface': 'headline3', 'text_color': 'default', 'max_lines': 0}}, 'type': 'simple_left_view'}, 'type': 'left_right_cell_view'}, {'paddings': {'top': '6x', 'bottom': '6x'}, 'divider': {'style': 'default', 'size': 'd1'}, 'left': {'icon': {'address': {'url': 'https://cdn.sberdevices.ru/VA/pnt/banks/tinkoff.png', 'hash': 'c9fa90eab29c60e8b0521b7757e07dad', 'type': 'url'}, 'size': {'width': 'medium', 'height': 'medium'}, 'margins': {'right': '6x'}}, 'texts': {'title': {'text': 'Тинькофф', 'typeface': 'body1', 'text_color': 'default', 'max_lines': 0}}, 'type': 'simple_left_view'}, 'actions': [{'text': 'Тинькофф', 'should_send_to_backend': True, 'type': 'text'}], 'type': 'left_right_cell_view'}, {'paddings': {'top': '6x', 'bottom': '6x'}, 'divider': {'style': 'default', 'size': 'd1'}, 'left': {'icon': {'address': {'url': 'https://cdn.sberdevices.ru/VA/pnt/banks/vtb.png', 'hash': 'c007459a267de36c2e02ab07308a7007', 'type': 'url'}, 'size': {'width': 'medium', 'height': 'medium'}, 'margins': {'right': '6x'}}, 'texts': {'title': {'text': 'ВТБ', 'typeface': 'body1', 'text_color': 'default', 'max_lines': 0}}, 'type': 'simple_left_view'}, 'actions': [{'text': 'ВТБ', 'should_send_to_backend': True, 'type': 'text'}], 'type': 'left_right_cell_view'}, {'paddings': {'top': '6x', 'bottom': '6x'}, 'divider': {'style': 'default', 'size': 'd1'}, 'left': {'icon': {'address': {'url': 'https://cdn.sberdevices.ru/VA/pnt/banks/ozon.png', 'hash': '508ff9b24cad88e39d7b2a44ca871771', 'type': 'url'}, 'size': {'width': 'medium', 'height': 'medium'}, 'margins': {'right': '6x'}}, 'texts': {'title': {'text': 'Озон Банк (Ozon)', 'typeface': 'body1', 'text_color': 'default', 'max_lines': 0}}, 'type': 'simple_left_view'}, 'actions': [{'text': 'Озон Банк (Ozon)', 'should_send_to_backend': True, 'type': 'text'}], 'type': 'left_right_cell_view'}, {'paddings': {'top': '6x', 'bottom': '6x'}, 'divider': {'style': 'default', 'size': 'd1'}, 'left': {'icon': {'address': {'url': 'https://cdn.sberdevices.ru/VA/pnt/banks/alfa.png', 'hash': '6c2228ab6809433c8209c4b2f20a6957', 'type': 'url'}, 'size': {'width': 'medium', 'height': 'medium'}, 'margins': {'right': '6x'}}, 'texts': {'title': {'text': 'Альфа Банк', 'typeface': 'body1', 'text_color': 'default', 'max_lines': 0}}, 'type': 'simple_left_view'}, 'actions': [{'text': 'Альфа Банк', 'should_send_to_backend': True, 'type': 'text'}], 'type': 'left_right_cell_view'}, {'paddings': {'top': '6x', 'bottom': '6x'}, 'left': {'icon': {'address': {'url': 'https://cdn.sberdevices.ru/VA/pnt/banks/raiffeisen.png', 'hash': 'fcecaf5f11aa9a0ba4499b1757621084', 'type': 'url'}, 'size': {'width': 'medium', 'height': 'medium'}, 'margins': {'right': '6x'}}, 'texts': {'title': {'text': 'Райффайзен Банк', 'typeface': 'body1', 'text_color': 'default', 'max_lines': 0}}, 'type': 'simple_left_view'}, 'actions': [{'text': 'Райффайзен Банк', 'should_send_to_backend': True, 'type': 'text'}], 'type': 'left_right_cell_view'}], 'can_be_disabled': True}
+          "card": {
+  "type": "list_card",
+  "paddings": {
+    "top": "4x",
+    "bottom": "4x"
+  },
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Оплата мобильной связи ",
+        "typeface": "title1",
+        "text_color": "default"
+      },
+      "paddings": {
+        "left": "10x",
+        "top": "8x",
+        "right": "8x",
+        "bottom": "8x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "tint_color": "solid_white",
+          "address": {
+            "type": "local",
+            "identificator": "mobile"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          }
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Оператор",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "left": "0x",
+              "top": "1x",
+              "right": "8x",
+              "bottom": "3x"
+            }
+          },
+          "subtitle": {
+            "text": "МТС",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "top": "4x"
+            }
+          },
+          "paddings": {
+            "left": "8x",
+            "top": "8x",
+            "right": "8x",
+            "bottom": "8x"
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "3x",
+        "right": "8x",
+        "bottom": "3x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "tint_color": "solid_white",
+          "address": {
+            "type": "local",
+            "identificator": "mobile"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          }
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Номер списания",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "left": "0x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "3x"
+            }
+          },
+          "subtitle": {
+            "text": "+7 (999) 999-99-99",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "top": "4x",
+              "bottom": "8x"
+            }
+          },
+          "paddings": {
+            "left": "8x",
+            "top": "8x",
+            "right": "8x",
+            "bottom": "8x"
+          }
+        }
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Счет списания",
+        "typeface": "footnote1",
+        "text_color": "secondary",
+        "margins": {
+          "left": "16x",
+          "top": "3x",
+          "right": "0x",
+          "bottom": "0x"
+        }
+      },
+      "paddings": {
+        "left": "16x",
+        "top": "8x",
+        "right": "0x",
+        "bottom": "0x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "4x",
+        "right": "8x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "card_mc_black"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          }
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "MasterCard Gold зарплатная",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "left": "0x",
+              "top": "3x",
+              "right": "8x",
+              "bottom": "3x"
+            },
+            "text_attributes": {
+              "length": 10,
+              "color": "#0D8523",
+              "start": 2
+            }
+          },
+          "subtitle": {
+            "text": "•• 1234",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "4x"
+            }
+          },
+          "paddings": {
+            "left": "8x",
+            "top": "3x",
+            "right": "8x",
+            "bottom": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "detail_right_view",
+        "detail": {
+          "text": "10 000 000 ₽",
+          "typeface": "body1",
+          "text_color": "brand"
+        },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "top"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Сумма списания",
+        "typeface": "footnote1",
+        "text_color": "secondary",
+        "margins": {
+          "left": "16x",
+          "top": "3x",
+          "right": "0x",
+          "bottom": "0x"
+        }
+      },
+      "paddings": {
+        "left": "16x",
+        "top": "8x",
+        "right": "0x",
+        "bottom": "0x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "8x",
+        "top": "4x",
+        "right": "8x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "total"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          }
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "250 Р",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "left": "0x",
+              "top": "0x",
+              "right": "8x",
+              "bottom": "3x"
+            }
+          },
+          "subtitle": {
+            "text": "Комиссия 0 ₽",
+            "typeface": "footnote1",
+            "text_color": "warning",
+            "margins": {
+              "top": "4x"
+            }
+          },
+          "paddings": {
+            "left": "8x",
+            "top": "8x",
+            "right": "8x",
+            "bottom": "8x"
+          }
+        }
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Оплатить 250 ₽",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Подтверждаю"
+          }
+        ],
+        "margins": {
+          "left": "10x",
+          "top": "5x",
+          "right": "10x",
+          "bottom": "5x"
+        }
+      },
+      "paddings": {
+        "left": "4x",
+        "top": "4x",
+        "right": "4x",
+        "bottom": "4x"
+      }
+    }
+  ]
+}
 }
 
 
