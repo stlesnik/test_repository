@@ -3,64 +3,346 @@
   "items": [
       {
           "card": {
-            "type": "list_card",
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
+  "type": "list_card",
+  "paddings": {
+    "top": "8x",
+    "left": "8x",
+    "right": "8x",
+    "bottom": "8x"
+  },
+  "cells": [
+    {
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "icon": {
+          "address": {
+            "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/bank_icons/ds_mc_36_tinkoff.png",
+            "type": "local",
+            "identificator": "safe"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "Банк получателя",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "6x",
+              "bottom": "3x"
             },
-            "cells": [
-              {
-                "type": "left_right_cell_view",
-                "paddings": {
-                  "left": "8x",
-                  "top": "4x",
-                  "right": "8x",
-                  "bottom": "8x"
-                },
-                "left": {
-                  "type": "simple_left_view",
-                  "icon": {
-                    "address": {
-                      "type": "local",
-                      "identificator": "card_mc_black"
-                    },
-                    "size": {
-                      "width": "medium",
-                      "height": "medium"
-                    },
-                    "margins": {
-                      "right": "6x"
-                    }
-                  },
-                  "icon_vertical_gravity": "center",
-                  "texts": {
-                    "title": {
-                      "text": "MasterCard Gold зарплатная",
-                      "typeface": "body1",
-                      "text_color": "default",
-                      "margins": {
-                        "left": "0x",
-                        "top": "3x",
-                        "right": "8x",
-                        "bottom": "3x"
-                      },
-                      "text_attributes": {
-                        "length": 10,
-                        "color": "#0D8523",
-                        "start": 2
-                      }
-                    },
-                    "paddings": {
-                      "left": "8x",
-                      "top": "3x",
-                      "right": "8x",
-                      "bottom": "8x"
-                    }
-                  }
-                }
-              }
-            ]
+            "max_lines": 0
+          },
+          "subtitle": {
+            "text": "safe",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "bottom": "6x"
+            },
+            "max_lines": 1
           }
+        },
+        "type": "simple_left_view"
+      },
+      "right": {
+        "type": "right_cell_array_view",
+        "orientation": "vertical",
+        "items": [
+          {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "6x"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "text": "Изменить банк",
+          "should_send_to_backend": true,
+          "type": "text"
+        }
+      ],
+      "type": "left_right_cell_view"
+    },
+    {
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "icon": {
+          "address": {
+            "url": "https://va-res.online.sberbank.ru/VA/icons/pnt_skills/bank_icons/ds_mc_36_tinkoff.png",
+            "type": "local",
+            "identificator": "card"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "Банк получателя",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "6x",
+              "bottom": "3x"
+            },
+            "max_lines": 0
+          },
+          "subtitle": {
+            "text": "card",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "bottom": "6x"
+            },
+            "max_lines": 1
+          }
+        },
+        "type": "simple_left_view"
+      },
+      "right": {
+        "type": "right_cell_array_view",
+        "orientation": "vertical",
+        "items": [
+          {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "6x"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "text": "Изменить банк",
+          "should_send_to_backend": true,
+          "type": "text"
+        }
+      ],
+      "type": "left_right_cell_view"
+    },
+    {
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "icon": {
+          "address": {
+            "type": "url",
+            "hash": "3832a6340540554b8a032f1b46533159",
+            "url": "https://cdn.sberdevices.ru/VA/pnt/sbp_logo.png"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "sbp",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "6x",
+              "bottom": "3x"
+            },
+            "max_lines": 0
+          },
+          "subtitle": {
+            "text": "card_ghost",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "bottom": "6x"
+            },
+            "max_lines": 1
+          }
+        },
+        "type": "simple_left_view"
+      },
+      "right": {
+        "type": "right_cell_array_view",
+        "orientation": "vertical",
+        "items": [
+          {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "6x"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "text": "Изменить банк",
+          "should_send_to_backend": true,
+          "type": "text"
+        }
+      ],
+      "type": "left_right_cell_view"
+    },
+    {
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "icon": {
+          "address": {
+            "type": "url",
+            "url": "https://cdn.sberdevices.ru/VA/pnt/sbp_logo.png"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "не пересчитанный хэш",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "6x",
+              "bottom": "3x"
+            },
+            "max_lines": 0,
+            "text_attributes": {
+              "length": 10,
+              "color": "#0D8523",
+              "start": 2
+            }
+          },
+          "subtitle": {
+            "text": "Тинькофф Банк",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "bottom": "6x"
+            },
+            "max_lines": 1
+          }
+        },
+        "type": "simple_left_view"
+      },
+      "right": {
+        "type": "right_cell_array_view",
+        "orientation": "vertical",
+        "items": [
+          {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "6x"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "text": "Изменить банк",
+          "should_send_to_backend": true,
+          "type": "text"
+        }
+      ],
+      "type": "left_right_cell_view"
+    },
+    {
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "icon": {
+          "address": {
+            "type": "url",
+            "hash": "5b69ca095ed76f5ceea58706e7891344",
+            "url": "https://cs5-2.4pda.to/6380085.png"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "right": "6x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "пересчитанный хэш",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "6x",
+              "bottom": "3x"
+            },
+            "max_lines": 0
+          },
+          "subtitle": {
+            "text": "Тинькофф Банк",
+            "typeface": "body1",
+            "text_color": "default",
+            "margins": {
+              "bottom": "6x"
+            },
+            "max_lines": 1
+          }
+        },
+        "type": "simple_left_view"
+      },
+      "right": {
+        "type": "right_cell_array_view",
+        "orientation": "vertical",
+        "items": [
+          {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "6x"
+            }
+          }
+        ]
+      },
+      "actions": [
+        {
+          "text": "Изменить банк",
+          "should_send_to_backend": true,
+          "type": "text"
+        }
+      ],
+      "type": "left_right_cell_view"
+    }
+  ],
+  "can_be_disabled": true
+}
       }
   ]
 }
