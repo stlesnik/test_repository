@@ -228,7 +228,7 @@
         },
         "texts": {
           "title": {
-            "text": "не пересчитанный хэш",
+            "text": "не пересчитанный хэш не пересчитанный хэш",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -236,11 +236,18 @@
               "bottom": "3x"
             },
             "max_lines": 0,
-            "text_attributes": {
-              "length": 10,
-              "color": "#0D8523",
-              "start": 2
-            }
+            "text_attributes": [
+              {
+                "length": 3,
+                "color": "#0D8523",
+                "start": 0
+              },
+              {
+                "length": 5,
+                "color": "#FFFFFF",
+                "start": 4
+              }
+            ]
           },
           "subtitle": {
             "text": "Тинькофф Банк",
