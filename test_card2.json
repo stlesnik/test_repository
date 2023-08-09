@@ -198,11 +198,6 @@
               "top": "3x",
               "right": "8x",
               "bottom": "3x"
-            },
-            "text_attributes": {
-              "length": 10,
-              "color": "#0D8523",
-              "start": 2
             }
           },
           "subtitle": {
